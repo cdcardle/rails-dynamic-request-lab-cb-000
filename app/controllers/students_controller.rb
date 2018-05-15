@@ -3,7 +3,7 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
-  # def show
-  #   @post = Post.find(params[:id])
-  # end
+  def show
+    @post = Post.find(params[:id])
+  end
 end
